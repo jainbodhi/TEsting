@@ -1,0 +1,32 @@
+.header {
+  color: #fff;
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search-bar input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 300px;
+  padding: 8px;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.user-icon img {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 30px;
+}
+
+/*# sourceMappingURL=index.2aa9d40f.css.map */

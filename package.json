@@ -4,19 +4,18 @@
   "description": "This is Learning Namaste React",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Harsh Jain",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.3",
+    "@babel/core": "^7.23.6",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "parcel": "^2.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "browserslist": [
-    "only Chrome"
-  ]
+  }
 }

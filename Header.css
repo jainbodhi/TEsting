@@ -1,0 +1,35 @@
+/* Header Styles */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+  }
+  
+  /* Logo Styles */
+  .logo img {
+	height: 40px; /* Adjust the height as needed */
+  }
+  
+  /* Search Bar Styles */
+  .search-bar input {
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 300px;
+	outline: none;
+  }
+  
+  .search-bar input::placeholder {
+	color: #aaa;
+  }
+  
+  /* User Icon Styles */
+  .user-icon img {
+	height: 30px; /* Adjust the height as needed */
+	border-radius: 50%;
+	cursor: pointer;
+  }
+  
